@@ -12,7 +12,7 @@ export default function HeroSection(){
                 <div className="">
 
 
-                <h2 className="text-[#23A6F0] text-center pb-[33px]">Welcome</h2>
+                <h2 className="text-[#23A6F0] text-center pb-[33px] pt-[11px] md:pt-[0px]">Welcome</h2>
                 <h1 className="text-white text-[40px] text-center font-bold lg:text-[55px] lg:leading-[66px] leading-[50px] pb-[22px]">Selling on the<br /> internet like a pro</h1>
             <p className="text-white text-center text-[15px] pb-[33px] lg:text-[21px]">We know how large objects will act, but things on a<br />  small scale just do not act that way.</p>
              
