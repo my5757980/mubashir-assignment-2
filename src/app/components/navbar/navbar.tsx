@@ -1,7 +1,7 @@
 
 'use client'
 
-import { useState ,useEffect } from "react"
+import { useState } from "react"
 import { GiHamburgerMenu } from "react-icons/gi";
 import Link from "next/link"
 import ResponsiveMenu from "../responsive-menu/responsive-menu";
@@ -11,13 +11,6 @@ export default function NAVBAR(){
 
 
 
-  useEffect(() => {
-    if (open) {
-      document.body.style.overflow = 'hidden';
-    } else {
-      document.body.style.overflow = 'auto';
-    }
-  }, [open]);
   
     return(
         <div className="overflow-x-hidden">
